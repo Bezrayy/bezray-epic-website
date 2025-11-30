@@ -1,41 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
     <title>bezray</title>
     <link rel="stylesheet" href="css.css">
     <link rel="icon" type="image/x-icon" href="photos/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   </head>
 <body>
-  <div class=links>
-    <a href="https://www.youtube.com/@Bezray"><img src="photos/youtube.svg" width="30" style="vertical-align:middle;margin:0px 5px"></a>
-    <!--ITS TWITTER NOT X-->
-    <a href="https://twitter.com/bezray_"><img src="photos/twitter.svg" width="30" style="position:relative; bottom:2px; vertical-align:middle; margin:0px 5px"></a>
+  <div class="links">
+    <a href="https://www.youtube.com/@Bezray" aria-label="YouTube">
+      <img src="photos/youtube.svg" width="30" alt="YouTube">
+    </a>
+    <a href="https://twitter.com/bezray_" aria-label="Twitter">
+      <img src="photos/twitter.svg" width="30" alt="Twitter">
+    </a>
   </div>
+  
   <div class="wrapper">
-    <div class=a>
+    <div class="profile-section">
       <div class="profile">
-        <img class="profile-image" src="photos/profile.jpg">
+        <img class="profile-image" src="photos/profile.jpg" alt="bezray profile">
       </div>
       <div class="profile-text">
-        <h1 style="font-size:500%;">bezray</h1>
-        <p style="position:relative; bottom:45px; font-size:100%; padding-bottom: 50px">i make things</p>
+        <h1>bezray</h1>
+        <p class="tagline">i make things</p>
       </div>
     </div>
   </div>
 
-  <div class=d>
-    <div class=b>
-      <p style="font-size:200%;">my best video</p>
+  <div class="content">
+    <div class="video-section">
+      <h2>my best video</h2>
+      <iframe class="player" width="560" height="315" src="https://www.youtube.com/embed/jOzWZp0XgVo?si=EptPKYVfru3cCn3L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
-    <iframe class=player width="560" height="315" src="https://www.youtube.com/embed/jOzWZp0XgVo?si=EptPKYVfru3cCn3L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <p style="font-size:200%">random</p>
-    <iframe class=player width="560" height="315" src="https://www.youtube.com/embed/N5tweifOPT8?si=y3eIHvV_OAIb9KsB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <div class="video-section">
+      <h2>random</h2>
+      <iframe class="player" width="560" height="315" src="https://www.youtube.com/embed/N5tweifOPT8?si=y3eIHvV_OAIb9KsB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
 
-    <div class="e">
-      <p style="font-size:500%"><b>about me</b></p>
-      <p style="position:relative; bottom:20px;">i like making stuff, and i hope you like the stuff as well.</p>
-      <p style="position:relative; bottom:20px;">thank you.</p>
+    <div class="about-section">
+      <h2>about me</h2>
+      <p>i like making stuff, and i hope you like the stuff as well.</p>
+      <p>thank you.</p>
     </div>
   </div>
 </body>
