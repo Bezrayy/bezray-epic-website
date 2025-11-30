@@ -44,6 +44,15 @@ body {
   display: block;
 }
 
+.lastfm {
+  border-radius: 20%;
+  max-width: 80%;
+  height: auto;
+  position: relative;
+  bottom: 2px;
+}
+
+
 /* Profile Section */
 .wrapper {
   display: flex;
@@ -54,7 +63,7 @@ body {
 .profile-section {
   display: flex;
   align-items: center; 
-  gap: 30px;
+  gap: 40px;
   max-width: 600px;
   flex-wrap: wrap;
   justify-content: center;
@@ -67,6 +76,7 @@ body {
   overflow: hidden;
   flex-shrink: 0;
 }
+
 
 .profile-image {
   width: 100%;
@@ -113,6 +123,28 @@ body {
   max-width: 568px;
 }
 
+div.album-player {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  max-width: 568px;
+  margin-bottom: 20px;
+}
+
+.albums {
+  max-width: 400px;
+  justify-content: center;
+  margin: 60px auto;
+}
+.albums h4 {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  margin-bottom: 30px;
+}
+.albums h3 {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  margin-bottom: 10px;
+}
 /* About Section */
 .about-section {
   margin: 60px auto;
