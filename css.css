@@ -1,3 +1,8 @@
+/* this used to all be my own code and then i realised that i need
+to do responsive design so i gave up and used claude 
+
+sorry if you wanted to think i was a somewhat competent programmer */
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +15,7 @@ html {
 
 body {
   color: white; 
-  background-image: linear-gradient(to top, #050a46, #160a36);
+  background-image: linear-gradient(to right bottom, #29094e, #0c1e3a);
   font-family: "Segoe UI", sans-serif;
   font-weight: 400;
   min-height: 100vh;
