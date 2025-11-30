@@ -1,33 +1,41 @@
-<!DOCTYPE html>
-<html>
-  <div class=links>
-  <a href="https://www.youtube.com/@Bezray"><img src="photos/youtube.svg" width="30" style="vertical-align:middle;margin:0px 5px"></a>
-  <!--ITS TWITTER NOT X-->
-  <a href="https://twitter.com/bezray_"><img src="photos/twitter.svg" width="30" style="position:relative; bottom:2px; vertical-align:middle; margin:0px 5px"></a>
-<body>
-  <head>
-    <link rel="stylesheet" href="css.css">
-  </head>
-  </div>
-  <div class=a>
-    <img class=profile src="photos/profile.jpg">
-    <h1 style="font-size:500%;">bezray</h1>
-    <p style="position:relative; bottom:45px; font-size:100%; padding-bottom: 50px">i make things</p>
-  </div>
+html {
+  text-align: center;
+}
+body {
+  color: white; 
+  background-image: linear-gradient(to top, #06194d, #0d0522);
+  font-family: "Segoe UI", sans-serif;
+  font-weight: heavy;
+  overflow-x: hidden;
+}  
+div.a {
+  position:relative;
+  bottom: 10px;
+}
 
-  <div class=d>
-    <div class=b>
-      <p style="font-size:200%;">my best video</p>
-    </div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/jOzWZp0XgVo?si=EptPKYVfru3cCn3L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <p style="font-size:200%">random</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/QFA_RAkTudo?si=xJsLG_3VpJG3rWv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </div>
+div.d {
+  line-height: 80%;
+  position:relative; bottom:50px;
+ }
+div.c {
+  line-height: 80%;
+  position:relative; bottom:80px;
+}
+div.e {
+ margin-left: 60px;
+ margin-right: 60px;
+ position:relative; bottom:100px;
+}
+.profile {
+  border-radius: 50%;
+  float:left;
+  width: 180px;
+  height: 180px;
+  position:relative; left: 680px; bottom: 15px;
+}
 
-    <div class="e">
-    <p style="font-size:500%"><b>about me</b></p>
-    <p style="position:relative; bottom:60px;">i like making stuff, and i hope you like the stuff as well</p>
-    <p style="position:relative; bottom:60px;">thank you.</p>
-  </div>
-</body>
-</html>
+div.links {
+  display: inline-block; 
+  position: relative; 
+  top: 20px;
+}
